@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #fefaf6, #f4f4fd);
+}
+/*Form Elements*/
+.weatherForm{
+    margin: 60px 0px;
+}
+.formInput, .formButton{
+    margin: 0 5px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+.formButton{
+    background-color: #ffffff;
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+.formButton:hover{
+    background-color: #ededed;
+    transform: scale(0.98);
+}
+/*Form Elements*/
+
+
+
+/*Card Elements*/
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    min-width: 400px;
+    min-height: 500px;
+    font-size: 30px;
+    background: linear-gradient(0deg, #fdf0e6, #e7fbf9);
+    box-shadow: 0 0 15px;
+    border-radius: 10px;
+    color: #3b3b3b;
+}
+.city{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.temperature{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.humidity{
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+.desc{
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-style: italic;
+}
+.emoji{
+    font-size: 85px;
+}
+/*Card Elements*/
