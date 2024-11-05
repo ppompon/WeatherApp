@@ -41,7 +41,7 @@ body{
     align-items: center;
     padding: 40px 0;
     min-width: 400px;
-    min-height: 500px;
+    min-height: 50px;
     font-size: 30px;
     background: linear-gradient(0deg, #fdf0e6, #e7fbf9);
     box-shadow: 0 0 15px;
@@ -52,7 +52,7 @@ body{
     font-size: 50px;
     margin-bottom: 10px;
 }
-.temperature{
+.temp{
     font-size: 60px;
     margin-bottom: 30px;
 }
